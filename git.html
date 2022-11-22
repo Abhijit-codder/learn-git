@@ -9,7 +9,27 @@
 <body>
     <h2>LEARN CODING FOR FREE!!</h2>
     <br>
-    <u>REGISTRATION FORM FOR ASPIRANTS</u>
+    <h1 id="heading">REGISTRATION FORM FOR ASPIRANTS</h1>
+    <button type="button" onclick="document.getElementById('heading').innerHTML='huury up!!'">Click ME</button>
+   
+<button onclick="document.getElementById('myImage').src='night.jpeg'">night</button>
+
+<img id="myImage" src="sun.jpg" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='sun.jpg'">daylight</button>
+<br><br>
+
+<button type="button" onclick="document.body.style.backgroundImage='url(sun.jpg)'">light background image</button>
+<button type="button" onclick="document.body.style.backgroundImage='url(night.jpeg)'">dark background image</button>
+
+    <script>
+        var time=prompt("hey whats the time");
+        if(time>5 && time<10){
+            alert("gm");
+        }else {
+            alert("goodevnening");
+        }
+        </script>
     <form action="/action.php">
         
         <h4>LOGIN</h4>
